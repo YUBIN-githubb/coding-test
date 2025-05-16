@@ -6,3 +6,5 @@ def solution(n):
     a = abs(n * 6) // math.gcd(n, 6)
     answer = a // 6
     return answer
+
+# abs는 절댓값 구하기
